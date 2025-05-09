@@ -4,7 +4,7 @@
 This is an implementation of the decision tree creation algorithm from
 [A Novel Hyperparameter-free Approach to Decision Tree Construction that Avoids Overfitting by Design](https://arxiv.org/pdf/1906.01246).
 
-This three construction method differs from other methods in two important aspects:
+This tree construction method differs from other methods in two important aspects:
 - There are no hyperparameters to tune
 - The generated decision trees are much smaller
 
@@ -66,7 +66,7 @@ pip install -r requirements_bench.txt
 ```
 
 Then run:
-```python
+```bash
 python benchmark.py
 ```
 
